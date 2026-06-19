@@ -11,4 +11,6 @@ COPY app.py /app
 RUN pip install flask
 
 # Pokreni aplikaciju
+
 CMD ["python", "app.py"]
+# nesto
